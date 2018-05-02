@@ -18,7 +18,7 @@ public class One {
 		d.manage().window().maximize();
 		d.get(p.getProperty("url"));
 		d.findElement(By.id(p.getProperty("id_id"))).sendKeys("vara");
-		d.findElement(By.id(p.getProperty("pwd_id"))).sendKeys("prasad");
+		
 		d.close();
 
 	}
